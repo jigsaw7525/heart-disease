@@ -1,0 +1,43 @@
+## <font color=red>各欄位含意
+-----
+1. age：年齡
+
+2. sex：性別 
+	M=male  
+	F=female
+
+3. ChestPainType：胸痛型別
+	0.ASY：無症狀。
+	1.NAP：非心絞痛。
+	2.ATA：非典型心絞痛。
+	3.TA：典型心絞痛。
+
+4. RestingBP：靜息收縮壓
+
+5. Cholesterol：血清膽固醇
+
+6. FastingBS ： 空腹血糖 >120mg/dl
+	1=true
+	0=false
+
+7. RestingECG 靜息心電圖
+	0.Normal：正常。
+	1.LVH：left ventricular hypertrophy 左心室肥大。
+	2.ST：ST-T wave abnormality ST-T波異常(不懂)。
+
+8. MaxHR 最大心跳速率
+
+9. ExerciseAngina 運動誘發的心絞痛
+	Y
+	N
+
+10. Oldpeak 相對於休息的運動引起的ST值(ST值與心電圖上的位置有關)(看不懂QQ)
+
+11. ST_Slope 運動高峰ST段的坡度 (google翻譯的，應該可以翻得更好)
+	0.Up：向上傾斜。
+	1.Flat：持平。
+	2.Down：向下傾斜。
+
+12. target 是否患有心臟病
+	0：無。
+	1：有。
